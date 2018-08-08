@@ -1,0 +1,51 @@
+/* General */
+body {
+    background-color: #ededed;
+}
+.width {
+    width: 960px;
+}
+
+/* Wrapper */
+#wrapper {
+    width: 1200px;      
+    border-top:  1px solid #cccccc;
+    margin: 0 auto;
+    margin-top: 9px;
+    background-color: #ffffff;
+}
+
+/* header */
+#header {
+    margin: 0 auto;
+}
+#slogan {
+    display: block;
+    margin-top: 7px;
+}
+
+/* menu */
+#conainerMenu{
+    margin: 0 auto;
+    border-bottom: solid 7px #676766;
+}
+ul {
+    margin-left: 50px;
+
+}
+#menu li{
+    display: inline;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+li +li {
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.menuHead {
+    color: #676766;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
