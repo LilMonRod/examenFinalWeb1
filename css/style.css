@@ -103,10 +103,18 @@ li +li {
 }
 .box p{
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: -5px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #313131;
+}
+.box a {
+    float: right;
+    margin-top: 50px;
+    color: #d3001c;
+} 
+a span{ 
+    color: #000;
 }
 #box2 {
     margin-left: 458px;
@@ -127,4 +135,18 @@ li +li {
     margin: 406px 30px 0px 30px;
     width: 900px;
 
+}
+
+/* footer */
+footer {
+    background-color: #e2e0e0;
+    margin-left: 32px;
+}
+footer p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3001c;
 }
